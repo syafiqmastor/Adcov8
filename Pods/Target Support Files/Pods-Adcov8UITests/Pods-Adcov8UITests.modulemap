@@ -1,0 +1,6 @@
+framework module Pods_Adcov8UITests {
+  umbrella header "Pods-Adcov8UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

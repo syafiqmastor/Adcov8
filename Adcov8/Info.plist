@@ -20,6 +20,22 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Circe-Thin.otf</string>
+		<string>Circe-ExtraLight.otf</string>
+		<string>Circe-Light.otf</string>
+		<string>Circe-Regular.otf</string>
+		<string>Circe-Bold.otf</string>
+		<string>Circe-ExtraBold.otf</string>
+		<string>NB International Bold Italic.ttf</string>
+		<string>NB International Bold Italic.ttf</string>
+		<string>NB International Bold.ttf</string>
+		<string>NB International Italic.ttf</string>
+		<string>NB International Light Italic.ttf</string>
+		<string>NB International Mono.ttf</string>
+		<string>NB International Regular.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -31,8 +47,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 </dict>
 </plist>

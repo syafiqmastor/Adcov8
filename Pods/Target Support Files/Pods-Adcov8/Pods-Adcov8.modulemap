@@ -1,0 +1,6 @@
+framework module Pods_Adcov8 {
+  umbrella header "Pods-Adcov8-umbrella.h"
+
+  export *
+  module * { export * }
+}

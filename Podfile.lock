@@ -1,0 +1,77 @@
+PODS:
+  - Braintree/Card (4.8.1):
+    - Braintree/Core
+  - Braintree/Core (4.8.1)
+  - Braintree/UnionPay (4.8.1):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (5.2.0):
+    - BraintreeDropIn/DropIn (= 5.2.0)
+  - BraintreeDropIn/DropIn (5.2.0):
+    - Braintree/Card (~> 4.0)
+    - Braintree/Core (~> 4.0)
+    - Braintree/UnionPay (~> 4.0)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (5.2.0)
+  - BTNavigationDropdownMenu (0.4.1)
+  - DZNEmptyDataSet (1.8.1)
+  - Fakery (2.0.0)
+  - Hero (0.3.6)
+  - ImageSlideshow/Core (1.2.0)
+  - ImageSlideshow/SDWebImage (1.2.0):
+    - ImageSlideshow/Core
+    - SDWebImage (~> 3.7)
+  - IQKeyboardManagerSwift (4.0.9)
+  - Onboard (2.3.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Spruce (1.0.0)
+  - SVProgressHUD (2.1.2)
+  - SwiftyUserDefaults (3.0.0)
+  - Valet (2.4.0)
+
+DEPENDENCIES:
+  - BraintreeDropIn
+  - BTNavigationDropdownMenu (from `https://github.com/PhamBaTho/BTNavigationDropdownMenu.git`, branch `swift-3.0`)
+  - DZNEmptyDataSet
+  - Fakery
+  - Hero
+  - ImageSlideshow/SDWebImage
+  - IQKeyboardManagerSwift
+  - Onboard
+  - SDWebImage (~> 3.8)
+  - Spruce (~> 1.0.0)
+  - SVProgressHUD
+  - SwiftyUserDefaults
+  - Valet
+
+EXTERNAL SOURCES:
+  BTNavigationDropdownMenu:
+    :branch: swift-3.0
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+
+CHECKOUT OPTIONS:
+  BTNavigationDropdownMenu:
+    :commit: e11a720322afc8baa02b3ff63fcc630e4f9de577
+    :git: https://github.com/PhamBaTho/BTNavigationDropdownMenu.git
+
+SPEC CHECKSUMS:
+  Braintree: 9e63eeb60d34f54fa1aa8f3d75fe3976927c06d5
+  BraintreeDropIn: f4278c4eafc1395d06ce79652fa1658d2b5ab815
+  BTNavigationDropdownMenu: 093f3cbfad1572f2c222bdf8d17584d1e13380d4
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Fakery: 97b99c23937d2e025d9135c75e2b17351ccd5031
+  Hero: d3c6f4dd80cdcdbb339be64e57ae3b5c3ab9938c
+  ImageSlideshow: c1395dcf33f7dba407fd21df0e8c315e8941e209
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  Onboard: b6871f25ac753175b2ab9a362fb2feb26a81a311
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Spruce: 07ffdb990923f500111fcbf13d102e16075b230e
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyUserDefaults: 0f1d45fc3aafb9064dac661e367f8f83fe21a4b4
+  Valet: e4cbde64b8cbbad4d6610fc10d4473502ba1548e
+
+PODFILE CHECKSUM: 9226fd37262fa372cafa5a6a98ab1583900137bd
+
+COCOAPODS: 1.2.0
